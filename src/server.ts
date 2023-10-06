@@ -20,7 +20,7 @@ export class Controller {
 const grpc = new GrpcClass();
 
 app.listen(port, () => {
-  console.log(`API Gateway is running on http://localhost:${port}`);
+  console.log(`Server  running on http://localhost:${port}`);
   
 });
 
